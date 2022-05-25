@@ -1460,7 +1460,7 @@ body {
 }
 
 .header-clear {
-  padding-top: 55px;
+  padding-top: 0;
 }
 
 .header-clear-small {
@@ -1616,8 +1616,8 @@ body {
 }
 
 .header-clear {
-  padding-top: calc(55px + (constant(safe-area-inset-top))*0.8) !important;
-  padding-top: calc(55px + (env(safe-area-inset-top))*0.8) !important;
+  padding-top: 0!important;
+  padding-top: 0!important;
 }
 
 .header-clear-small {
@@ -1636,8 +1636,8 @@ body {
 }
 
 .header {
-  height: calc(55px + (constant(safe-area-inset-top))*0.8) !important;
-  height: calc(55px + (env(safe-area-inset-top))*0.8) !important;
+  height: 0!important;
+  height: 0!important;
 }
 
 .header-icon {
