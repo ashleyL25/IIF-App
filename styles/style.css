@@ -1,4 +1,29 @@
 @charset "UTF-8";
+
+
+:root {
+  /** fonts **/
+  --font-body: 'Merriweather', serif;
+  --font-head: 'Thorben', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: var(--font-body)!important;
+}
+
 /* Generating Color Pack*/
 .color-highlight {
   color: #8CC152 !important;
